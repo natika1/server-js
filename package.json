@@ -1,0 +1,28 @@
+{
+    "uid": "https://github.com/pinf/server-js/",
+    "name": "server-js",
+    "main": "lib/server.js",
+    "engine": [
+        "node"
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/pinf/server-js.git"
+        }
+    ],
+    "mappings": {
+        "nodejs": {
+            "id": "nodejs.org"
+        },
+        "pinf": {
+            "id": "pinf.org/loader"
+        },
+        "connect": {
+            "id": "github.com/senchalabs/connect/"
+        },
+        "modules": {
+            "id": "github.com/pinf/modules-js/"
+        }
+    }
+}

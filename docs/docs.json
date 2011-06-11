@@ -1,0 +1,16 @@
+{
+    "project": {
+        "title": "PINF Server",
+        "author": {
+            "name": "Christoph Dorn",
+            "url": "http://www.christophdorn.com/"
+        },
+        "license": "CC-BY-NC-SA"
+    },
+    "menu": [
+        {
+            "label": "Welcome",
+            "path": "/Welcome.md"
+        }
+    ]
+}

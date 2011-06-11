@@ -1,0 +1,13 @@
+{
+    "extends": {
+        "location": "../../program.json"
+    },
+    "boot": "demo",
+    "packages": {
+        "demo": {
+            "locator": {
+                "location": "./"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "demo",
+    "main": "lib/main.js",
+    "engine": [
+        "node"
+    ],
+    "mappings": {
+        "nodejs": {
+            "id": "nodejs.org"
+        },
+        "server": {
+            "id": "github.com/pinf/server-js/"
+        }
+    }
+}
