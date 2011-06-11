@@ -23,7 +23,7 @@ Developer mailing list: [http://groups.google.com/group/pinf-dev/](http://groups
 Contribute
 ==========
 
-Collaboration Platform: [https://github.com/pinf/wildfire-js/](https://github.com/pinf/insight-js/)
+Collaboration Platform: [https://github.com/pinf/server-js/](https://github.com/pinf/server-js/)
 
 Collaboration Process:
 
