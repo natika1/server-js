@@ -11,9 +11,9 @@ exports.main = function(options)
      * @see http://senchalabs.github.com/connect/
      */
 
-    var CONNECT = options.servers.connect.instance;
+    var CONNECT = options.stacks.connect.instance;
 
-    options.servers.connect.start(
+    options.stacks.connect.start(
         
         CONNECT()
         
