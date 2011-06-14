@@ -7,6 +7,7 @@ The server supports/provides the following:
 
   * [Connect](https://github.com/senchalabs/connect) middleware layer
   * *jsgi* handler for *Connect*
+  * Reloading *jsgi* app
 
 Usage
 =====

@@ -17,7 +17,7 @@
         },
         "github.com/senchalabs/connect/": {
             "locator": {
-                "archive": "https://github.com/senchalabs/connect/zipball/master",
+                "archive": "https://github.com/senchalabs/connect/zipball/1.4.3",
                 "descriptor": {
                     "uid": "http://github.com/senchalabs/connect/",
                     "native": true,
@@ -43,7 +43,7 @@
         },
         "github.com/bentomas/node-mime/": {
             "locator": {
-                "archive": "https://github.com/bentomas/node-mime/zipball/master",
+                "archive": "https://github.com/bentomas/node-mime/zipball/8f2c606244f4ae6784cc4a6bdd7b29578cc5f701",
                 "descriptor": {
                     "uid": "https://github.com/bentomas/node-mime/",
                     "native": true,
@@ -55,7 +55,7 @@
         },
         "github.com/pinf/modules-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/modules-js/zipball/master"
+                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.0"
             }
         },
         "github.com/kriskowal/q/": {

@@ -1,6 +1,7 @@
 
 var PATH = require("nodejs/path"),
-    JSGI = require("server/vendor/connect/middleware/jsgi");
+    JSGI = require("server/vendor/connect/middleware/jsgi"),
+    JSGI_RELOAD = require("server/jsgi/reload");
 
 exports.main = function(options)
 {
@@ -18,19 +19,23 @@ exports.main = function(options)
         
             // a cached jsgi route
 
-            .use('/jsgi-cached', JSGI.jsgi(require("./jsgi").app()))
+            .use('/jsgi-cached', JSGI.jsgi(
+                require("./jsgi").app()
+            ))
 
             // a reloading jsgi route
 
-            .use('/jsgi-reloading', JSGI.jsgi([
-                require.id("./jsgi", true),
-                null,   // next app for ./jsgi
-                {       // options for ./jsgi
-                    counter: 3
-                }
-            ], {
-                reload: true    // if omitted will look to --reload in server args
-            }))
+            .use('/jsgi-reloading', JSGI.jsgi(
+                JSGI_RELOAD.app([
+                    require.id("./jsgi", true),
+                    null,   // next app for ./jsgi
+                    {       // options for ./jsgi
+                        counter: 3
+                    }
+                ], {
+                    reload: true    // if omitted will look to --reload in server args
+                })
+            ))
 
             // a static connect route
 
