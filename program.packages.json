@@ -40,6 +40,14 @@
                 }
             }
         },
+        "github.com/felixge/node-formidable/": {
+            "locator": {
+                "archive": "https://github.com/felixge/node-formidable/zipball/v1.0.2"
+            },
+            "descriptor": {
+                "native": true
+            }
+        },
         "github.com/bentomas/node-mime/": {
             "locator": {
                 "archive": "https://github.com/bentomas/node-mime/zipball/8f2c606244f4ae6784cc4a6bdd7b29578cc5f701",

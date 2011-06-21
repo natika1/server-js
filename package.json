@@ -23,6 +23,9 @@
         },
         "modules": {
             "id": "github.com/pinf/modules-js/"
+        },
+        "formidable": {
+            "id": "github.com/felixge/node-formidable/"
         }
     }
 }
