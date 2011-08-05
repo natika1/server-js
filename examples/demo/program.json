@@ -3,6 +3,11 @@
         "location": "../../program.json"
     },
     "boot": "demo",
+    "implements": {
+        "github.com/pinf/server-js/-meta/vhost/0.1": {
+            "listen": 8081
+        }
+    },
     "packages": {
         "demo": {
             "locator": {
