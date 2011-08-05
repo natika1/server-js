@@ -24,6 +24,6 @@ Demo
 
 Start the server and load the included demo program.
 
-    commonjs -v ./ -v ./programs/demo
+    commonjs -v ./ -v ./examples/demo
     
-    open http://localhost:8080/
+    open http://localhost:8081/
