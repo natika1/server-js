@@ -14,6 +14,12 @@ Documentation
     commonjs -v https://github.com/pinf/docs-js ./docs
 
 
+Examples
+========
+
+    commonjs -v ./ -v ./examples/demo
+
+
 Support & Feedback
 ==================
 
