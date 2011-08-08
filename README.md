@@ -20,6 +20,12 @@ Examples
     commonjs -v ./ -v ./examples/demo
 
 
+TODO
+====
+
+    * Graceful shutdown handling when `kill` signal received.
+
+
 Support & Feedback
 ==================
 
