@@ -4,7 +4,7 @@
     },
     "boot": "demo",
     "implements": {
-        "github.com/pinf/server-js/-meta/vhost/0.1": {
+        "github.com/pinf/server-js/-meta/strawman/vhost/0.1": {
             "listen": 8081
         }
     },

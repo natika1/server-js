@@ -1,7 +1,7 @@
 {
-    "engine": [
-        "node"
-    ],
+    "engines": {
+        "node": ">=0.5.4"
+    },
     "packages": {
         "github.com/pinf/server-js/": {
             "locator": {
@@ -16,53 +16,21 @@
         },
         "github.com/senchalabs/connect/": {
             "locator": {
-                "archive": "https://github.com/senchalabs/connect/zipball/1.4.3",
-                "descriptor": {
-                    "uid": "http://github.com/senchalabs/connect/",
-                    "native": true,
-                    "dependencies": [
-                        {
-                            "id": "registry.npmjs.org/qs/"
-                        },
-                        {
-                            "id": "github.com/bentomas/node-mime/"
-                        }
-                    ]
-                }
-            }
-        },
-        "registry.npmjs.org/qs/": {
-            "locator": {
-                "archive": "http://registry.npmjs.org/qs/-/qs-0.0.6.tgz",
-                "descriptor": {
-                    "uid": "http://registry.npmjs.org/qs/",
-                    "native": true
-                }
+                "name": "connect",
+                "version": "1.4.3",
+                "pm": "npm"
             }
         },
         "github.com/felixge/node-formidable/": {
             "locator": {
-                "archive": "https://github.com/felixge/node-formidable/zipball/v1.0.2"
-            },
-            "descriptor": {
-                "native": true
-            }
-        },
-        "github.com/bentomas/node-mime/": {
-            "locator": {
-                "archive": "https://github.com/bentomas/node-mime/zipball/8f2c606244f4ae6784cc4a6bdd7b29578cc5f701",
-                "descriptor": {
-                    "uid": "https://github.com/bentomas/node-mime/",
-                    "native": true,
-                    "directories": {
-                        "lib": ""
-                    }
-                }
+                "name": "formidable",
+                "version": "1.0.2",
+                "pm": "npm"
             }
         },
         "github.com/pinf/modules-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.4"
+                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.5"
             }
         },
         "github.com/kriskowal/q/": {

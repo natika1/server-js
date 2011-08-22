@@ -23,6 +23,7 @@ Examples
 TODO
 ====
 
+    * Use `pwd` based cache dir for package (need to be able to set cache dir for loader)
     * Graceful shutdown handling when `kill` signal received.
 
 
