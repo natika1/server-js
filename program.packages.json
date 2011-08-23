@@ -17,7 +17,7 @@
         "github.com/senchalabs/connect/": {
             "locator": {
                 "name": "connect",
-                "version": "1.4.3",
+                "version": "1.6.2",
                 "pm": "npm"
             }
         },
