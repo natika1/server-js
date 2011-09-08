@@ -21,6 +21,9 @@
         "connect": {
             "id": "github.com/senchalabs/connect/"
         },
+        "console": {
+            "id": "github.com/pinf/console-js/"
+        },
         "modules": {
             "id": "github.com/pinf/modules-js/"
         },

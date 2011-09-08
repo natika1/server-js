@@ -1,6 +1,6 @@
 {
     "engines": {
-        "node": ">=0.5.4"
+        "node": ">=0.4.11"
     },
     "packages": {
         "github.com/pinf/server-js/": {
@@ -28,9 +28,24 @@
                 "pm": "npm"
             }
         },
+        "github.com/pinf/console-js/": {
+            "locator": {
+                "archive": "https://github.com/pinf/console-js/zipball/v0.1.0"
+            }
+        },
+        "github.com/pinf/insight-js/": {
+            "locator": {
+                "archive": "https://github.com/pinf/insight-js/zipball/v0.1.0"
+            }
+        },
+        "github.com/pinf/wildfire-js/": {
+            "locator": {
+                "archive": "https://github.com/pinf/wildfire-js/zipball/v0.1.0"
+            }
+        },
         "github.com/pinf/modules-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.6"
+                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.7"
             }
         },
         "github.com/kriskowal/q/": {
