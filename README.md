@@ -11,7 +11,7 @@ An application server.
 Documentation
 =============
 
-    commonjs -v https://github.com/pinf/docs-js ./docs
+    commonjs -v https://github.com/pinf/docs-js ./
 
 
 Examples
