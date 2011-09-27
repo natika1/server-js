@@ -11,6 +11,12 @@
             "url": "git://github.com/pinf/server-js.git"
         }
     ],
+    "scripts": {
+        "serve": {
+            "location": "./",
+            "module": "/scripts/serve.js"
+        }
+    },
     "mappings": {
         "nodejs": {
             "id": "nodejs.org"

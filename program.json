@@ -6,5 +6,12 @@
     "boot": "github.com/pinf/server-js/",
     "engine": [
         "node"
-    ]
+    ],
+    "packages": {
+        "github.com/pinf/server-js/": {
+            "locator": {
+                "location": "./"
+            }
+        }
+    }
 }

@@ -3,11 +3,6 @@
         "node": ">=0.4.11"
     },
     "packages": {
-        "github.com/pinf/server-js/": {
-            "locator": {
-                "location": "./"
-            }
-        },
         "nodejs.org": {
             "provider": "nodejs.org"
         },
@@ -45,7 +40,7 @@
         },
         "github.com/pinf/modules-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.7"
+                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.9"
             }
         },
         "github.com/kriskowal/q/": {
