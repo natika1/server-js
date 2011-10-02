@@ -9,6 +9,10 @@ exports.main = function(env)
 	{
 		env.programPathResolver = function(path)
 		{
+			if (/^\//.test(path))
+			{
+				return path;
+			}
 			return env.bootPackagePath + "/" + path;
 		}
 
