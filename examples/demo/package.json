@@ -6,7 +6,7 @@
     ],
     "mappings": {
         "nodejs": {
-            "id": "nodejs.org"
+            "id": "nodejs.org/"
         },
         "server": {
             "id": "github.com/pinf/server-js/"

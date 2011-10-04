@@ -3,11 +3,11 @@
         "node": ">=0.4.11"
     },
     "packages": {
-        "nodejs.org": {
-            "provider": "nodejs.org"
+        "nodejs.org/": {
+            "provider": "nodejs.org/"
         },
-        "pinf.org/loader": {
-            "provider": "pinf.org/loader"
+        "pinf.org/loader/": {
+            "provider": "pinf.org/loader/"
         },
         "github.com/senchalabs/connect/": {
             "locator": {
@@ -25,7 +25,7 @@
         },
         "github.com/pinf/console-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/console-js/zipball/v0.1.0"
+                "archive": "https://github.com/pinf/console-js/zipball/v0.1.1"
             }
         },
         "github.com/pinf/insight-js/": {
@@ -40,7 +40,7 @@
         },
         "github.com/pinf/modules-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.12"
+                "archive": "https://github.com/pinf/modules-js/zipball/v0.1.13"
             }
         },
         "github.com/kriskowal/q/": {
