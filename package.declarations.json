@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "serve": {
+            "id": "github.com/pinf/server-js/",
+            "module": "/scripts/serve.js"
+        }
+    },
+    "mappings": {
+        "pinf-server": {
+            "id": "github.com/pinf/server-js/"
+        }
+    }
+}

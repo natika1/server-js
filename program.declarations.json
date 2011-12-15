@@ -3,6 +3,11 @@
         "node": ">=0.4.11"
     },
     "packages": {
+        "github.com/pinf/server-js/": {
+            "locator": {
+                "archive": "https://github.com/pinf/server-js/zipball/v0.1.22"
+            }
+        },
         "nodejs.org/": {
             "provider": "nodejs.org/"
         },

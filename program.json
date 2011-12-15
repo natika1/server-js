@@ -1,12 +1,9 @@
 {
-    "version": "0.1.21",
+    "version": "0.1.22",
     "extends": {
-        "location": "./program.packages.json"
+        "location": "./program.declarations.json"
     },
     "boot": "github.com/pinf/server-js/",
-    "engine": [
-        "node"
-    ],
     "packages": {
         "github.com/pinf/server-js/": {
             "locator": {

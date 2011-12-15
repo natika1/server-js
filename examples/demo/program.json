@@ -1,6 +1,6 @@
 {
     "extends": {
-        "location": "../../program.json"
+        "location": "../../program.declarations.json"
     },
     "boot": "demo",
     "implements": {
