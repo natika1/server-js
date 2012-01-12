@@ -9,7 +9,9 @@ exports.app = function(app, options)
     return function(env)
     {
         counter++;
-        
+
+        console.log("... responding");        
+
         return {
             status: 200,
             headers: {
