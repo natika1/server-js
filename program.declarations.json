@@ -5,7 +5,7 @@
     "packages": {
         "github.com/pinf/server-js/": {
             "locator": {
-                "archive": "https://github.com/pinf/server-js/zipball/v0.1.22"
+                "archive": "https://github.com/pinf/server-js/zipball/v0.1.24"
             }
         },
         "nodejs.org/": {
